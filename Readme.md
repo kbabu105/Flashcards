@@ -1,4 +1,4 @@
-## NAME_OF_YOUR_APP_HERE
+## Flashcards App
 
 ### App Description
 Simple app to study flashcards.
