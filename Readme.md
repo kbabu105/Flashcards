@@ -3,9 +3,7 @@
 ### App Description
 Simple app to study flashcards with the additional functionality of adding new flashcards.
 
-### App Walk-though
-`TODO://` Add the URL to your animated app walk-though `gif` in the image tag below. Make sure the gif actually renders and animates when viewing this README. (☝️ Remove this paragraph after after adding gif)
-
+### App Walk-through
 <img src="https://media.giphy.com/media/1kkYAOtwNPburLarvN/giphy.gif" width=200><br>
 
 ## Required
@@ -23,7 +21,7 @@ Simple app to study flashcards with the additional functionality of adding new f
 ### App Description
 Simple app to study flashcards with functionality of flipping the card from seeing the question to seeing the answer.
 
-### App Walk-though
+### App Walk-through
 <img src="https://media.giphy.com/media/33IKg1JOM3B6f97rHz/giphy.gif" width=200><br>
 
 ## Required
