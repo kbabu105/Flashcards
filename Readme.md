@@ -1,7 +1,27 @@
+## Lab 2
+
+### App Description
+Simple app to study flashcards with the additional functionality of adding new flashcards.
+
+### App Walk-though
+`TODO://` Add the URL to your animated app walk-though `gif` in the image tag below. Make sure the gif actually renders and animates when viewing this README. (☝️ Remove this paragraph after after adding gif)
+
+<img src="https://media.giphy.com/media/1kkYAOtwNPburLarvN/giphy.gif" width=200><br>
+
+## Required
+- [x] User can open the creation screen
+- [x] User can cancel out of the creation screen
+- [x] User can enter a new question and answer in the creation screen to then show it on the flashcard
+- [x] Push code to GitHub
+## Optional
+- [ ] User gets an error if they try to create a new flashcard with no question or answer
+- [ ] User can edit existing flashcard
+- [ ] User can add multiple choice answers in the creation screen
+
 ## Flashcards App
 
 ### App Description
-Simple app to study flashcards.
+Simple app to study flashcards with functionality of flipping the card from seeing the question to seeing the answer.
 
 ### App Walk-though
 <img src="https://media.giphy.com/media/33IKg1JOM3B6f97rHz/giphy.gif" width=200><br>
@@ -13,6 +33,6 @@ Simple app to study flashcards.
 - [x] Build in logic to show the answer side when the card is tapped
 - [x] Push code to GitHub
 ## Optional
-- [ ] Toggle the flashcard between the question side and the answer side
+- [x] Toggle the flashcard between the question side and the answer side
 - [x] Style the question and answer side of the card to better distinguish between the two sides
 - [ ] Add selectable multiple choice answers beneath the card
