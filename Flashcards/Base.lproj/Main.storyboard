@@ -50,11 +50,27 @@
                                 </connections>
                             </view>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="X2q-B3-PZf">
-                                <rect key="frame" x="337" y="637" width="30" height="30"/>
+                                <rect key="frame" x="172" y="637" width="30" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="+"/>
                                 <connections>
                                     <segue destination="HJa-nO-Llq" kind="show" id="4R7-5H-g8k"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fcE-Eb-DoB">
+                                <rect key="frame" x="1" y="637" width="31" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Prev"/>
+                                <connections>
+                                    <action selector="didTapOnPrev:" destination="BYZ-38-t0r" eventType="touchUpInside" id="YLb-wW-bvy"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hrD-IE-wth">
+                                <rect key="frame" x="342" y="637" width="32" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Next"/>
+                                <connections>
+                                    <action selector="didTapOnNext:" destination="BYZ-38-t0r" eventType="touchUpInside" id="H6B-ie-Q3E"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -66,6 +82,8 @@
                         <outlet property="backLabel" destination="Tpo-l7-xX4" id="OMq-ej-OKZ"/>
                         <outlet property="card" destination="EXb-5r-V9U" id="VJ6-Fk-CL2"/>
                         <outlet property="frontLabel" destination="Yho-I7-Brp" id="GKM-kT-MRQ"/>
+                        <outlet property="nextButton" destination="hrD-IE-wth" id="9Rx-Ch-4E2"/>
+                        <outlet property="prevButton" destination="fcE-Eb-DoB" id="mxU-gx-Ttx"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

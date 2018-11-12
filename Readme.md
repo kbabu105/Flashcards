@@ -1,3 +1,20 @@
+## Lab 3
+
+### App Description
+Simple app to study flashcards with the additional functionality of adding new flashcards, browsing old ones, and persisting them upon app restart.
+
+### App Walk-though
+<img src="https://media.giphy.com/media/1euNxBFbOf09NaIvyw/giphy.gif" width=200><br>
+
+## Required
+- [x] User can browse through multiple flashcards
+- [x] User can re-open the app and see previously created flashcards
+- [x] Push code to GitHub
+## Optional
+- [ ] User can delete a flashcard
+- [ ] User can edit existing flashcard
+- [ ] User can store multiple choice questions
+
 ## Lab 2
 
 ### App Description
@@ -16,7 +33,7 @@ Simple app to study flashcards with the additional functionality of adding new f
 - [ ] User can edit existing flashcard
 - [ ] User can add multiple choice answers in the creation screen
 
-## Flashcards App
+## Lab 1
 
 ### App Description
 Simple app to study flashcards with functionality of flipping the card from seeing the question to seeing the answer.
